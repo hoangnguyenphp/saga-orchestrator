@@ -1,6 +1,8 @@
-package com.saga.orchestrator.dto;
+package com.saga.orchestrator.dto.orderprocess;
 
-public class OrderRequest {
+import com.saga.orchestrator.dto.SagaRequestDto;
+
+public class StartOrderSagaRequestDto extends SagaRequestDto {
     private String productId;
     private Integer quantity;
 	public String getProductId() {
